@@ -1,0 +1,5 @@
+Step 5:
+
+
+ffmpeg.exe -i .\out.avi -i .\v.aac -vcodec libx264 -profile:v High -b:v 1024k -acodec cop
+y output.mp4

@@ -1,0 +1,9 @@
+Step 1£º
+
+Software: https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-20190108-8a1fc95-win64-static.zip
+
+To obtain music:
+ffmpeg.exe -i original_video.mp4 -vn -y -acodec copy audio.aac
+
+To obtain video:
+ffmpeg.exe -i original_video.mp4 -vn -y -vcodec copy video.mp4
